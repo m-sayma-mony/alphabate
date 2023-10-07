@@ -1,0 +1,722 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* column division start */
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+/* column division end */
+
+/* height declaration start */
+.h-50{ height: 50px; }
+.h-100{ height: 100px; }
+.h-200{ height: 200px; }
+.h-300{ height: 300px; }
+.h-400{ height: 400px; }
+.h-500{ height: 500px; }
+/* height declaration end */
+.container{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+
+/* alphabate part start */
+.alpha{
+    position: relative;
+}
+/* A start*/
+.a{
+    position: absolute;
+    top: 70px;
+    left: 110px;
+}
+.one{
+    height: 300px;
+    width: 300px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate(25deg);
+
+    position: absolute;
+    top: 90px;
+    left: 45px;
+}
+.tow{
+    height: 300px;
+    width: 300px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate(155deg);
+    position: absolute;
+    top: 90px;
+    left: -97px;
+}
+.three{
+    height: 274px;
+    width: 158px;
+    background-color: none;
+    border-bottom: 5px solid black;
+    transform: rotate();
+    position: absolute;
+    bottom: -210px;
+    left: 45px;
+}
+/* A end*/
+
+/* B start*/
+.four{
+    height: 245px;
+    width: 300px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate();
+    position: absolute;
+    top: 129px;
+    right: 210px;
+}
+.five{
+    height: 200px;
+    width: 200px;
+    background-color: none;
+
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    /* border-bottom: 5px solid black; */
+    border-radius: 50%;
+
+    transform: rotate();
+    position: absolute;
+    top: 48px;
+    right: 311px;
+}
+.six{
+    height: 200px;
+    width: 200px;
+    background-color: none;
+
+    /* border-top: 5px solid black; */
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 50%;
+
+    transform: rotate();
+    position: absolute;
+    top: 248px;
+    right: 311px;
+}
+/* B end*/
+
+/* C start*/
+
+.seven {
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-right: none;
+    border-radius: 34%;
+    background-color: none;
+    position: absolute;
+    top: 564px;
+    left: 132px;
+}
+/* C end*/
+
+/* D start*/
+.eight{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: none;
+    position: absolute;
+    top: 564px;
+    right: 301px;
+}
+/* D end*/
+
+/* E start */
+.nine{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-right: none;
+    background-color: none;
+    position: absolute;
+    top: 62rem;
+    left: 118px;
+}
+.ten{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 72rem;
+    left: 118px;
+    border-top: 5px solid black;
+}
+/* E end */
+
+/* F start */
+.eleven{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-right: none;
+    border-bottom: none;
+    background-color: none;
+    position: absolute;
+    top: 62rem;
+    right: 118px;
+}
+.twelve{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 72rem;
+    right: 118px;
+    border-top: 5px solid black;
+}
+/* F end */
+
+/* G start */
+.thirteen{
+    height: 300px;
+    width: 300px;
+    background-color: none;
+    border: 5px solid black;
+    border-right: none;
+    border-radius: 38%;
+    position: absolute;
+    top: 90rem;
+    left: 74px
+}
+.fourteen{
+    height: 48px;
+    width: 150px;
+    background-color: none;
+    border: 5px solid black;
+    position: absolute;
+    top: 102rem;
+    left: 224px;
+    border-bottom: none;
+    border-right: none;
+}
+/* G end */
+
+/* H start */
+.fiveteen{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: none;
+    background-color: none;
+    position: absolute;
+    top: 89rem;
+    right: 118px;
+}
+.sixteen{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 99rem;
+    right: 118px;
+    border-top: 5px solid black;
+}
+/* H end */
+
+/* I start */
+.seventeen{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-right: none;
+    background-color: none;
+    border-left: none;
+    position: absolute;
+    top: 116rem;
+    left: 118px;
+}
+.eighteen{
+    height: 300px;
+    width: 50px;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    background-color: none;
+    position: absolute;
+    top: 116rem;
+    left: 13rem;
+}
+/* I end */
+
+/* J start */
+.nineteen{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-right: none;
+    background-color: none;
+    border-left: none;
+    border-bottom: none;
+    position: absolute;
+    top: 116rem;
+    right: 118px;
+}
+.twenty{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    background-color: none;
+    border-left: none;
+    border-top: none;
+    border-bottom-left-radius: 30%;
+    position: absolute;
+    top: 116rem;
+    right: 118px;
+}
+/* J end */
+
+/* K start */
+.twenty-one{
+    height: 300px;
+    width: 200px;
+    border-left: 5px solid black;
+    background-color: none;
+    position: absolute;
+    top: 144rem;
+    left: 118px;
+}
+.twenty-two{
+    height: 150px;
+    width: 50px;
+    border-left: 5px solid black;
+    background-color: none;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 146rem;
+    left: 166px;
+}
+.twenty-three{
+    height: 150px;
+    width: 50px;
+    border-left: 5px solid black;
+    background-color: none;
+    transform: rotate(140deg);
+    position: absolute;
+    top: 153rem;
+    left: 127px;
+}
+/* K end */
+
+/* L start */
+.twenty-four{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-right: none;
+    border-top: none;
+    background-color: none;
+    position: absolute;
+    top: 144rem;
+    right: 118px;
+}
+/* L end */
+
+/* M start */
+.twenty-five{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: none;
+    background-color: none;
+    position: absolute;
+    top: 169rem;
+    left: 118px;
+}
+.twenty-six{
+    height: 150px;
+    width: 50px;
+    border-left: 5px solid black;
+    background-color: none;
+    transform: rotate(139deg);
+    position: absolute;
+    top: 169rem;
+    left: 128px;
+}
+.twenty-seven{
+    height: 150px;
+    width: 50px;
+    border-left: 5px solid black;
+    background-color: none;
+    transform: rotate(220deg);
+    position: absolute;
+    top: 167rem;
+    left: 225px;
+}
+/* M end */
+
+/* N start */
+.twenty-eight{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: none;
+    background-color: none;
+    position: absolute;
+    top: 169rem;
+    right: 118px;
+}
+.twenty-nine{
+    height: 357px;
+    width: 50px;
+    border-left: 5px solid black;
+    background-color: none;
+    transform: rotate(147deg);
+    position: absolute;
+    top: 168rem;
+    right: 213px;
+}
+/* N end */
+
+/* O start */
+.thirty {
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 34%;
+    background-color: none;
+    position: absolute;
+    top: 195rem;
+    left: 132px;
+}
+/* O end */
+
+/* P start */
+.thirty-one{
+    height: 316px;
+    width: 300px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate();
+    position: absolute;
+    top: 194rem;
+    right: 12px;
+}
+.thirty-two{
+    height: 200px;
+    width: 200px;
+    background-color: none;
+    border: 5px solid black;
+    border-left: none;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: rotate();
+    position: absolute;
+    top: 194rem;
+    right: 107px;
+}
+/* P end */
+
+/* Q start */
+.thirty-three {
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 34%;
+    background-color: none;
+    position: absolute;
+    top: 220rem;
+    left: 132px;
+}
+.thirty-eight{
+    height: 128px;
+    width: 50px;
+    border-left: 5px solid black;
+    transform: rotate(145deg);
+    position: absolute;
+    top: 234rem;
+    left: 246px;
+}
+/* Q end */
+
+/* R start */
+.thirty-four{
+    height: 316px;
+    width: 300px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate();
+    position: absolute;
+    top: 220rem;
+    right: 12px;
+}
+.thirty-five{
+    height: 200px;
+    width: 200px;
+    background-color: none;
+    border: 5px solid black;
+    border-left: none;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: rotate();
+    position: absolute;
+    top: 220rem;
+    right: 107px;
+}
+.thirty-six{
+    height: 154px;
+    width: 50px;
+    border-left: 5px solid black;
+    transform: rotate(136deg);
+    position: absolute;
+    top: 232rem;
+    right: 201px;
+}
+/* R end */
+
+/* S start */
+.thirty-seven{
+    height: 180px;
+    width: 200px;
+    background-color: none;
+    border: 5px solid black;
+    border-right: none;
+    border-top-left-radius: 30%;
+    position: absolute;
+    top: 247rem;
+    left: 162px;
+}
+.thirty-eight{
+    height: 180px;
+    width: 200px;
+    background-color: none;
+    border: 5px solid black;
+    border-left: none;
+    border-bottom-right-radius: 30%;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 258rem;
+    left: 162px;
+}
+/* S end */
+
+/* T start */
+.thirty-nine{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-right: none;
+    background-color: none;
+    border-left: none;
+    border-bottom: none;
+    position: absolute;
+    top: 245rem;
+    right: 118px;
+}
+.fourty{
+    height: 300px;
+    width: 50px;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    background-color: none;
+    position: absolute;
+    top: 245rem;
+    right: 11rem;
+}
+/* T end */
+
+/* U start */
+.fourty-one {
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-color: none;
+    position: absolute;
+    top: 278rem;
+    left: 132px;
+}
+/* U end */
+
+/* V start */
+.fourty-two{
+    height: 300px;
+    width: 20px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate(152deg);
+    position: absolute;
+    top: 277rem;
+    right: 285px;
+}
+.fourty-three{
+    height: 300px;
+    width: 20px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate(199deg);
+    position: absolute;
+    top: 276rem;
+    right: 169px;
+}
+/* V end */
+
+/* W start */
+.fourty-four{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: none;
+    background-color: none;
+    position: absolute;
+    top: 300rem;
+    left: 118px;
+}
+.fourty-five{
+    height: 150px;
+    width: 50px;
+    border-left: 5px solid black;
+    background-color: none;
+    transform: rotate(315deg);
+    position: absolute;
+    top: 310rem;
+    left: 255px;
+}
+.fourty-six{
+    height: 150px;
+    width: 50px;
+    border-left: 5px solid black;
+    background-color: none;
+    transform: rotate(48deg);
+    position: absolute;
+    top: 312rem;
+    left: 166px;
+}
+/* W end */
+
+/* X start */
+.fourty-seven{
+    height: 360px;
+    width: 20px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate(141deg);
+    position: absolute;
+    top: 300rem;
+    right: 265px;
+}
+.fourty-eight{
+    height: 360px;
+    width: 20px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate(217deg);
+    position: absolute;
+    top: 299rem;
+    right: 250px;
+}
+/* X end */
+
+/* Y start */
+.y{
+    position: absolute;
+    top: 48rem;
+    left: 0;
+}
+.fourty-nine{
+    height: 200px;
+    width: 20px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate(32deg);
+    position: absolute;
+    top: 278rem;
+    left: 302px;
+}
+.fifty{
+    height: 200px;
+    width: 20px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate(144deg);
+    position: absolute;
+    top: 278rem;
+    left: 179px;
+}
+.fifty-one{
+    height: 100px;
+    width: 20px;
+    background-color: none;
+    border-left: 5px solid black;
+    position: absolute;
+    top: 289rem;
+    left: 252px;
+}
+/* Y end */
+
+/* Z start */
+.fifty-two{
+    height: 20px;
+    width: 200px;
+    background-color: none;
+    border-top: 5px solid black;
+    position: absolute;
+    top: 326rem;
+    right: 136px;
+}
+.fifty-three{
+    height: 250px;
+    width: 20px;
+    background-color: none;
+    border-left: 5px solid black;
+    transform: rotate(229deg);
+    position: absolute;
+    top: 323rem;
+    right: 225px;
+}
+.fifty-four{
+    height: 20px;
+    width: 200px;
+    background-color: none;
+    border-top: 5px solid black;
+    position: absolute;
+    top: 336rem;
+    right: 123px;
+}
+/* Z end */
+
+/* alphabate part end */
